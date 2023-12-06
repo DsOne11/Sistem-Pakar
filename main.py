@@ -76,7 +76,7 @@ def main():
         print(item.getNama() + " : " + str(int(item.getPresentase())) + "%")
         
     # Penentuan hasil
-    thresholdValue = 80 # %
+    thresholdValue = 60 # %
     kemungkinanPenyebab = []
     highest = 0
     for item in penyebab:
